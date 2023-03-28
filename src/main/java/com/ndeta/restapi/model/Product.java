@@ -12,9 +12,8 @@ import java.util.Date;
 @Getter
 @Setter
 @NoArgsConstructor
-@RequiredArgsConstructor
 @Entity
-@Table(name = "products")
+@Table(name = "product")
 public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
